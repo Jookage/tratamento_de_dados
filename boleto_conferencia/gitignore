@@ -1,0 +1,23 @@
+# Dados reais - NUNCA versionar
+*.txt
+*.xlsx
+*.xls
+*.csv
+
+# Exceto os arquivos de exemplo fictícios que você quiser manter versionados
+!lista_contas_fake.txt
+!README.md
+
+# Ambientes Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente / segredos
+.env
+*.env
+
+# Configurações locais de IDE
+.vscode/settings.json
